@@ -1,0 +1,123 @@
+.hero {
+    background: url(https://images.unsplash.com/photo-1605515298946-d062f2e9da53?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1302&q=80) no-repeat center/cover;
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+/* 
+https://images.unsplash.com/photo-1596037560218-72a6812a6574?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80 */
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 6px 15px;
+    background-color: rgba(247, 247, 247, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 8px 24px;
+    border-radius: 25px;
+}
+
+form label {
+    font-size: .8rem;
+    padding-bottom: 2px;
+}
+
+.text, .form, .until {
+    display: flex;
+    flex-direction: column;
+}
+
+.form, .until{
+    border-left: 1px solid #333;
+    padding-left: 6px;
+}
+
+form input {
+    background-color: transparent;
+    border: none;
+}
+
+form input:focus {
+    outline: none;
+}
+
+form .text_input{
+    width: 300px;
+    font-size: 1rem;
+}
+
+.search_btn {
+    display: flex;
+    align-items: center;
+}
+
+.search_btn .btn {
+    display: none;
+}
+
+@media  screen and (max-width: 720px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin: auto 1rem;
+    }
+
+    .text, .form, .until {
+        width: 100%;
+        padding: .2rem;
+    }
+
+    .form, .until {
+        border-left: none;
+    }
+
+    .text_input {
+        font-size: .8rem;
+    }
+
+    .border {
+        border-top: 1px solid #333;
+        padding: 8px;
+    }
+
+    form label{
+        padding: .4rem 0;
+    }
+
+    .search_btn {
+        width: 100%;
+        border-top: 1px solid #333;
+        padding: 8px 0;
+    }
+
+    .search_btn .btn {
+        display: block;
+        background-color: #593cfb;
+        color: white;
+        width: 100%;
+        font-weight: 600;
+        font-size: 1rem;
+        border: none;
+        padding: 12px;
+        margin: .5rem 0;
+        cursor: pointer;
+    }
+
+    .search_btn .btn:hover {
+        background-color: #4733b7;
+        transition: background-color 1s;
+    }
+
+    .icon {
+        display: none;
+    }
+}
+
+
+
+
