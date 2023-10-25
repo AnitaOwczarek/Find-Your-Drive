@@ -5,7 +5,7 @@ Car Rental Search serves as a starting point for a web application that will all
 * [Technologies](#technologies)
 * [Features](#features)
 * [How to Run the Project](#how-to-run-the-project)
-* [Folder Structure]#(folfer-structure)
+* [Folder Structure](#folder-structure)
 * [Sources](#sources)
 
 ## Technologies
