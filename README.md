@@ -31,7 +31,7 @@ Car Rental Search serves as a starting point for a web application that will all
   Start the development server by running:
   npm start
 
-## Folder structures
+## Folder structure
 
 The project's folder structure is organized as follows:
 * public/: Contains the HTML file and public assets.
