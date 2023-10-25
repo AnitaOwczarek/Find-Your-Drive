@@ -9,9 +9,9 @@ Car Rental Search serves as a starting point for a web application that will all
 * [Sources](#sources)
 
 ## Technologies
-*HTML
-*CSS
-*REACT
+* HTML
+* CSS
+* REACT
 
 ## Features
 * Simple web structure with a potential for expansion.
