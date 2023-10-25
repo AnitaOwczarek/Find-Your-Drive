@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Car Rental Search - Simple Website Structure
+Car Rental Search serves as a starting point for a web application that will allow users to search for rental cars based on specified dates. At its current state, it provides a basic web structure that can be further developed to include the search functionality.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+* [Technologies](#technologies)
+* [Features](#features)
+* [How to Run the Project](#how-to-run-the-project)
+* [Folder Structure]#(folfer-structure)
+* [Sources](#sources)
 
-## Available Scripts
+## Technologies
+*HTML
+*CSS
+*REACT
 
-In the project directory, you can run:
+## Features
+* Simple web structure with a potential for expansion.
+* Utilizes React components for modularity.
+* Basic CSS styling for a presentable appearance.
 
-### `npm start`
+## How to run the project
+1. Clone the Repository:
+  Clone the repository using Git:
+  git clone https://github.com/your-account/car-rental-search.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Install Dependencies:
+  Navigate to the project directory and install dependencies using npm or yarn:
+  npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Start the Development Server:
+  Start the development server by running:
+  npm start
 
-### `npm test`
+## Folder structures
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project's folder structure is organized as follows:
+* public/: Contains the HTML file and public assets.
+* src/: Contains the React components and application logic.
+* components/: React components.
+* App.js: The main application component.
+* index.js: Entry point of the application.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Sources
+This app is inspired by Code Commerce - Build A Responsive React JS Website - CSS Modules - Beginner
